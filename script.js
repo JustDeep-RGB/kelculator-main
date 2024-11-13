@@ -18,8 +18,8 @@ arr.forEach(button => {
             input.value = string;
         } else if (value === 'secret') {
             window.location = "https://youtu.be/dQw4w9WgXcQ?feature=shared";
-        } else if (value === 'AKAL') {
-            window.location = "https://youtu.be/dTnH0Imbx2U?feature=shared";
+        } else if (value === '////') {
+            window.location = "";
         } else {
             if (['+', '-', '*', '/', '.'].includes(value) && ['+', '-', '*', '/', '.'].includes(string.slice(-1))) {
 
